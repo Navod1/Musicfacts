@@ -1,0 +1,411 @@
+/*Set default settings to the page elements*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+/*Set defaults values to the body elements*/
+body {
+    font-family:sans-serif;
+    color:black;
+    line-height:1.2;
+}
+/*Set default values to the h1 and h2 elements*/
+h1, h2 {
+    font-weight:700;
+    font-size:3rem;
+}
+/*Set default values to the paragraph element*/
+.massage {
+    margin:10px 0;
+    color:white;
+    font-size:12px;
+}
+/*Sets background color, height and font colors to the header of the web page*/
+.toppanel {
+    background:#3CAEA3;
+    color:white;
+    height:70px;
+}
+.container {
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.flex {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+}
+#one {
+    order:2;
+}
+input[type=submit], [type=reset]{
+    background-color:rgba(197, 27, 240, 0.5);
+    padding:1px 17px;
+    border-radius:7px;
+    border:3px solid #333;
+    font-size:16px;
+    font-weight:900;
+    text-align:center;
+    cursor: pointer;
+    margin:4px 2px;
+    width:100px;
+}
+.buttonclass:hover {
+    background-color:lightskyblue;
+}
+.search {
+    margin:auto;
+    max-width:300px;
+}
+.search input[type=text] {
+    padding:5px;
+    font-size:15px;
+    border:3px solid grey;
+    float:left;
+    width:85%;
+    background:#f1f1f1;
+    border-right:none;
+}
+.search button[type=submit] {
+    float:left;
+    padding:5px;
+    width:15%;
+    border:4px solid grey;
+    background:#2196F3;
+    border-left:none;
+    cursor:pointer;
+}
+.search:focus {
+    outline:none;
+}
+.dropbtn {
+    background-color:hotpink;
+    color: white;
+    padding:13px;
+    font-size: 16px;
+    border:2px solid grey;
+    border-radius:14px;
+    cursor: pointer;
+ }
+.dropdown {
+    position: relative;
+    display: inline-block;
+ }
+.dropcon {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    border-radius:11px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+.dropcon a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+.dropcon a:hover {background-color:lightskyblue}
+.dropdown:hover .dropcon {
+    display: block;
+ }
+.dropdown:hover .dropbtn {
+    background-color:lightskyblue;
+ }
+.dropdown {
+     left:800px;
+ }
+.dropdown, .dropbtn, .dropcon:focus {
+     outline:none;
+ }
+.sidenav {
+    height:100%;
+    width:200px;
+    position: absolute;
+    background-color:rgba( 27,0,255,0.6);
+    z-index: 1;
+    top:10;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border:2px solid black;
+    border-top:none;
+}
+  
+.sidenav a {
+    box-sizing: border-box;
+    border:2px solid grey;
+    display:block;
+    text-align:center;
+    margin:45px 26px;
+    padding:16px;
+    border-radius:20px;
+    text-decoration:none;
+    background-color:green;
+    color:white;
+  }
+  
+.sidenav a:hover {
+    color:lightskyblue;
+    background-color:rgba(197, 27, 240, 0.2);
+  }
+.wrapper {
+    position:relative;
+    border:2px solid black;
+    padding:20px;
+    margin-left:198px;
+    border-left:none;
+    border-top:none;
+    height:90px;
+    color:white;
+    background-color:rgba(166, 201, 127,0.5);
+}
+.wrapper h3 {
+    position:absolute;
+    top:60px;
+    left:79px;
+    color:red;
+    font-weight:300;
+}
+.wrapper p {
+    position:absolute;
+    text-align:center;
+    margin-left:59px;
+    bottom:60px;
+    color:black;
+    font-weight:300;
+}
+.top h3 {
+    position:relative;
+    display:inline;
+    margin-left:277px;
+    top:30px;
+    color:rgba(255,0,0,0.8);
+}
+.frmone .frm .description .comicon .viewicon{
+    margin-left:277px;
+}
+.frmone {
+    position:relative;
+    display:grid;
+    grid-template-columns:100px 400px 400px 200px;
+    margin-left:255px;
+    top:60px;
+    color:white;
+    background-color:rgba(127,63,191,0.5);
+    padding:20px;
+    width:1235px;
+    border:2px solid black;
+    border-radius:17px;
+}
+.description {
+    position:relative;
+    margin-left:250px;
+}
+.comicon {
+    position:relative;
+    margin-left:275px;
+}
+.viewicon {
+    position:relative;
+    margin-left:230px;
+}
+.frmone a {
+    text-decoration:none;
+    color:red;
+    font-weight:600;
+}
+.frmone :hover {
+    color:green;
+}
+.txtarea {
+    position:relative;
+    top:100px;
+    margin-left:60px;
+}
+.txtarea input{
+    width:400px;
+    height:80px;
+    border:2px solid grey;
+    border-radius:17px;
+    text-align:center;
+    font-size:20px;
+}
+.txtarea :focus {
+    outline:none;
+}
+.main {
+    position:relative;
+    width:570px;
+    left:450px;
+    top:50px;
+}
+.main h3 {
+    color:white;
+    font-size:25px;
+}
+.main h5 {
+    position:relative;
+    left:270px;
+    top:71px;
+}
+.content {
+    position:relative;
+    max-width:1000px;
+    margin:0;
+    padding:2px;
+    top:440px;
+    left:120px;
+}
+.content p {
+    color:white;
+}
+
+.heart {
+    position:relative;
+    width:40px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:30px;
+    top:420px;
+    left:200px;
+}
+.comment {
+    position:relative;
+    width:40px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:30px;
+    top:384px;
+    left:280px;
+}
+.share {
+    position:relative;
+    width:40px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:30px;
+    top:346px;
+    left:360px;
+}
+.button-article .btn {
+    background-color:rgba(197, 27, 240, 0.5);
+    border-radius:7px;
+    border:3px solid #333;
+    font-weight: 700;
+    padding:5px;
+}
+.button-article .btn {
+    position:relative;
+    left:60px;
+    top:80px;
+}
+.button-article .btn :hover {
+    color:lightskyblue;
+    background-color:rgba(197, 27, 240, 0.2);
+}
+.header {
+    width:320px;
+    position:relative;
+    top:140px;
+    left:650px;
+}
+.header p {
+    text-align: left;
+    color:white;
+}
+.initial select {
+    position:relative;
+    left:980px;
+    top:65px;
+}
+.initial select {
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgba(197, 27, 240, 0.5);
+}
+.dropmenu {
+    width: 180px;
+    position:relative;
+    left:980px;
+    top:70px;
+}
+  
+.dropmenu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.dropmenu a:hover {
+    background-color: #ccc;
+}
+.artist-pic img {
+      position:relative;
+      bottom:370px;
+      left:400px;
+}
+.artist-pic p {
+      position:relative;
+      text-align: left;
+      width:600px;
+      left:200px;
+      bottom:360px;
+      color:white;
+}
+.achievments {
+    width: 200px;
+    position:relative;
+    left:480px;
+    top:550px;
+}
+  
+.achievments a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.achievments a:hover {
+    background-color: #ccc;
+}
+  
+.achievments a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.songs {
+    width: 200px;
+    position:relative;
+    left:750px;
+    top:384px;
+}
+  
+.songs a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.songs a:hover {
+    background-color: #ccc;
+}
+  
+.songs a.active {
+    background-color: #04AA6D;
+    color: white;
+}
